@@ -1,0 +1,10 @@
+let name = "Mauricio";
+let lastName = "Builes";
+let student = `${name} ${lastName}`;
+let upperStudent = `${name.toUpperCase()} ${lastName.toUpperCase()}`;
+let lowerStudent = `${name.toLowerCase()} ${lastName.toLowerCase()}`;
+let lenStudent = student.length;
+let firstLetter = name[0];
+let lasLetter = lastName.slice(-1);
+let spacesDroped = student.trim();
+let bool = student.includes(name);
