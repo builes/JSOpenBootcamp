@@ -27,4 +27,10 @@ console.log(saludo.slice(6, -1)); //Desde el indice 6 hasta el penultimo element
 
 // .trim()   borra espacios al inicio y al final
 
-// indexof(elemento buscado)  nos retorna el indice de lo que buscamos
+// indexof(elemento buscado)  nos retorna el indice de lo que buscamos si no lo encuentra retorna -1
+
+// .includes(lo que buscamos)  retorna true or false
+
+// .startsWith() verifica si un texto comienza con algo
+
+// .endsWith() verifica si un texto termina con algo
